@@ -1,0 +1,48 @@
+body {
+    background-color:#FFFFFF;
+    font-family: "Lucida Grande", Helvetica, sans-serif;
+    font-size:smaller;
+}
+
+a {
+	text-decoration: none
+}
+
+a:hover    {
+	text-decoration: underline
+}
+
+#graybox {
+	background-color: #eee;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border: solid 1px #444
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

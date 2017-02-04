@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A1839EC07089CC700F4187E /* DeliciousToSafari.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A1839EA07089CC700F4187E /* DeliciousToSafari.h */; };
+		2A1839ED07089CC700F4187E /* DeliciousToSafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A1839EB07089CC700F4187E /* DeliciousToSafari.m */; };
+		2A183A1A0708AFA100F4187E /* Downloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A183A180708AFA100F4187E /* Downloader.h */; };
+		2A183A1B0708AFA100F4187E /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A183A190708AFA100F4187E /* Downloader.m */; };
+		2A2A0AD3070A3C7200B2B92D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2A0AD2070A3C7200B2B92D /* Security.framework */; };
+		2A81BDBE07D4FDF60047918E /* XMLStringUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A81BDBC07D4FDF60047918E /* XMLStringUtilities.h */; };
+		2A81BDBF07D4FDF60047918E /* XMLStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A81BDBD07D4FDF60047918E /* XMLStringUtilities.m */; };
+		2AAB4624070A1F4800C1C439 /* delicious2safari Help in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB4610070A1F4800C1C439 /* delicious2safari Help */; };
+		2AAB4635070A1FCF00C1C439 /* d2s.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2AAB4634070A1FCF00C1C439 /* d2s.icns */; };
+		2AB736B70709F45A004BB299 /* SafariHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB736B50709F45A004BB299 /* SafariHelper.h */; };
+		2AB736B80709F45A004BB299 /* SafariHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB736B60709F45A004BB299 /* SafariHelper.m */; };
+		2AB73785070A133A004BB299 /* GUIController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB7377F070A133A004BB299 /* GUIController.h */; };
+		2AB73786070A133A004BB299 /* GUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73780070A133A004BB299 /* GUIController.m */; };
+		2AB73787070A133A004BB299 /* GenericSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB73781070A133A004BB299 /* GenericSheetController.h */; };
+		2AB73788070A133A004BB299 /* GenericSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73782070A133A004BB299 /* GenericSheetController.m */; };
+		2AB73789070A133A004BB299 /* InfoSheetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AB73783070A133A004BB299 /* InfoSheetController.h */; };
+		2AB7378A070A133A004BB299 /* InfoSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73784070A133A004BB299 /* InfoSheetController.m */; };
+		2AB7378D070A1355004BB299 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB7378B070A1355004BB299 /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2A1839EA07089CC700F4187E /* DeliciousToSafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeliciousToSafari.h; sourceTree = "<group>"; };
+		2A1839EB07089CC700F4187E /* DeliciousToSafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeliciousToSafari.m; sourceTree = "<group>"; };
+		2A183A180708AFA100F4187E /* Downloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		2A183A190708AFA100F4187E /* Downloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
+		2A2A0AD2070A3C7200B2B92D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		2A81BDBC07D4FDF60047918E /* XMLStringUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLStringUtilities.h; sourceTree = "<group>"; };
+		2A81BDBD07D4FDF60047918E /* XMLStringUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLStringUtilities.m; sourceTree = "<group>"; };
+		2A81C00A07D53C7C0047918E /* Release Notes.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = "Release Notes.txt"; sourceTree = "<group>"; };
+		2AAB45EE070A1F1800C1C439 /* Documentation.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Documentation.rtf; sourceTree = "<group>"; };
+		2AAB45F2070A1F2100C1C439 /* gpl.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = gpl.txt; sourceTree = "<group>"; };
+		2AAB4611070A1F4800C1C439 /* English */ = {isa = PBXFileReference; lastKnownFileType = folder; name = English; path = "English.lproj/delicious2safari Help"; sourceTree = "<group>"; };
+		2AAB4634070A1FCF00C1C439 /* d2s.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = d2s.icns; sourceTree = "<group>"; };
+		2AB736B50709F45A004BB299 /* SafariHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariHelper.h; sourceTree = "<group>"; };
+		2AB736B60709F45A004BB299 /* SafariHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariHelper.m; sourceTree = "<group>"; };
+		2AB7377F070A133A004BB299 /* GUIController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GUIController.h; sourceTree = "<group>"; };
+		2AB73780070A133A004BB299 /* GUIController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GUIController.m; sourceTree = "<group>"; };
+		2AB73781070A133A004BB299 /* GenericSheetController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = GenericSheetController.h; sourceTree = "<group>"; };
+		2AB73782070A133A004BB299 /* GenericSheetController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = GenericSheetController.m; sourceTree = "<group>"; };
+		2AB73783070A133A004BB299 /* InfoSheetController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = InfoSheetController.h; sourceTree = "<group>"; };
+		2AB73784070A133A004BB299 /* InfoSheetController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = InfoSheetController.m; sourceTree = "<group>"; };
+		2AB7378C070A1355004BB299 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* delicious2safari_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delicious2safari_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* delicious2safari.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = delicious2safari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				2A2A0AD3070A3C7200B2B92D /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A183A000708AC5800F4187E /* DelicousToSafari */,
+				2A1839FF0708AC5200F4187E /* GUI */,
+				2A81BDB607D4FD8C0047918E /* Utilities */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A2A0AD2070A3C7200B2B92D /* Security.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* delicious2safari.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* delicious2safari */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB45EB070A1F0C00C1C439 /* Documentation */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = delicious2safari;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* delicious2safari_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB4634070A1FCF00C1C439 /* d2s.icns */,
+				2AB7378B070A1355004BB299 /* MainMenu.nib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A1839FF0708AC5200F4187E /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7377F070A133A004BB299 /* GUIController.h */,
+				2AB73780070A133A004BB299 /* GUIController.m */,
+				2AB73781070A133A004BB299 /* GenericSheetController.h */,
+				2AB73782070A133A004BB299 /* GenericSheetController.m */,
+				2AB73783070A133A004BB299 /* InfoSheetController.h */,
+				2AB73784070A133A004BB299 /* InfoSheetController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		2A183A000708AC5800F4187E /* DelicousToSafari */ = {
+			isa = PBXGroup;
+			children = (
+				2A1839EA07089CC700F4187E /* DeliciousToSafari.h */,
+				2A1839EB07089CC700F4187E /* DeliciousToSafari.m */,
+				2A183A180708AFA100F4187E /* Downloader.h */,
+				2A183A190708AFA100F4187E /* Downloader.m */,
+				2AB736B50709F45A004BB299 /* SafariHelper.h */,
+				2AB736B60709F45A004BB299 /* SafariHelper.m */,
+			);
+			name = DelicousToSafari;
+			sourceTree = "<group>";
+		};
+		2A81BDB607D4FD8C0047918E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2A81BDBC07D4FDF60047918E /* XMLStringUtilities.h */,
+				2A81BDBD07D4FDF60047918E /* XMLStringUtilities.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		2AAB45EB070A1F0C00C1C439 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2AAB45EE070A1F1800C1C439 /* Documentation.rtf */,
+				2AAB45F2070A1F2100C1C439 /* gpl.txt */,
+				2A81C00A07D53C7C0047918E /* Release Notes.txt */,
+				2AAB4610070A1F4800C1C439 /* delicious2safari Help */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AAB45C7070A1ECF00C1C439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A1839EC07089CC700F4187E /* DeliciousToSafari.h in Headers */,
+				2A183A1A0708AFA100F4187E /* Downloader.h in Headers */,
+				2AB736B70709F45A004BB299 /* SafariHelper.h in Headers */,
+				2AB73785070A133A004BB299 /* GUIController.h in Headers */,
+				2AB73787070A133A004BB299 /* GenericSheetController.h in Headers */,
+				2AB73789070A133A004BB299 /* InfoSheetController.h in Headers */,
+				2A81BDBE07D4FDF60047918E /* XMLStringUtilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* delicious2safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A01E5130A17FA3300342894 /* Build configuration list for PBXNativeTarget "delicious2safari" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				2AAB45C7070A1ECF00C1C439 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = delicious2safari;
+			productInstallPath = "$(HOME)/Applications";
+			productName = delicious2safari;
+			productReference = 8D1107320486CEB800E47090 /* delicious2safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2A01E5170A17FA3300342894 /* Build configuration list for PBXProject "delicious2safari" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* delicious2safari */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* delicious2safari */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				2AB7378D070A1355004BB299 /* MainMenu.nib in Resources */,
+				2AAB4624070A1F4800C1C439 /* delicious2safari Help in Resources */,
+				2AAB4635070A1FCF00C1C439 /* d2s.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				2A1839ED07089CC700F4187E /* DeliciousToSafari.m in Sources */,
+				2A183A1B0708AFA100F4187E /* Downloader.m in Sources */,
+				2AB736B80709F45A004BB299 /* SafariHelper.m in Sources */,
+				2AB73786070A133A004BB299 /* GUIController.m in Sources */,
+				2AB73788070A133A004BB299 /* GenericSheetController.m in Sources */,
+				2AB7378A070A133A004BB299 /* InfoSheetController.m in Sources */,
+				2A81BDBF07D4FDF60047918E /* XMLStringUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2AAB4610070A1F4800C1C439 /* delicious2safari Help */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AAB4611070A1F4800C1C439 /* English */,
+			);
+			name = "delicious2safari Help";
+			sourceTree = "<group>";
+		};
+		2AB7378B070A1355004BB299 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB7378C070A1355004BB299 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A01E5140A17FA3300342894 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = delicious2safari_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = delicious2safari;
+				REZ_PREPROCESSOR_DEFINITIONS = DEBUG;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		2A01E5150A17FA3300342894 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = delicious2safari_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.3;
+				PRODUCT_NAME = delicious2safari;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.3.9.sdk;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		2A01E5160A17FA3300342894 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = delicious2safari_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = delicious2safari;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		2A01E5180A17FA3300342894 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Development;
+		};
+		2A01E5190A17FA3300342894 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Deployment;
+		};
+		2A01E51A0A17FA3300342894 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A01E5130A17FA3300342894 /* Build configuration list for PBXNativeTarget "delicious2safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01E5140A17FA3300342894 /* Development */,
+				2A01E5150A17FA3300342894 /* Deployment */,
+				2A01E5160A17FA3300342894 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		2A01E5170A17FA3300342894 /* Build configuration list for PBXProject "delicious2safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A01E5180A17FA3300342894 /* Development */,
+				2A01E5190A17FA3300342894 /* Deployment */,
+				2A01E51A0A17FA3300342894 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,38 @@
+1.2.1 (2006-06-24)
+------------------
+Changes
+- This release uses the new secure API URL
+Known Issues
+- There is still no 2.0 :-)
+
+1.2u (2006-05-15)
+-----------------
+Changes
+- Universal Binary
+
+1.2 (2005-03-02)
+----------------
+Changes
+- Fixed problem with ampersands being escaped as XML entities
+- Small documentation fixes
+
+1.1 (2004-09-30)
+----------------
+Changes
+- Faster downloads
+- Improved downloading code to put minimal strain on del.icio.us server
+- Uses new, efficient API for getting all bookmarks
+- delicious2safari now has its own User-Agent identifier
+
+1.0.1 (2004-09-30)
+------------------
+Changes
+- Improved downloading code to put less strain on del.icio.us server
+Known issues
+- Application may seem unresponsive during bookmarks processing
+  on slower machines with lots of bookmarks. This will be fixed
+  in the next release.
+
+1.0 (2004-09-29)
+----------------
+- initial version

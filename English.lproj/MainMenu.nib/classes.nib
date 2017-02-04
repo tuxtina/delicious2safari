@@ -1,0 +1,58 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancelGetBookmarks = id; getBookmarks = id; }; 
+            CLASS = GUIController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cancelButton = NSButton; 
+                genericSheetController = GenericSheetController; 
+                infoSheetController = InfoSheetController; 
+                loginField = NSTextField; 
+                mainWindow = NSWindow; 
+                passField = NSTextField; 
+                progressIndicator = NSProgressIndicator; 
+                quitButton = NSButton; 
+                replaceSheet = NSPanel; 
+                saveInKeychainSheet = NSPanel; 
+                statusField = NSTextField; 
+                tabView = NSTabView; 
+                updateKeychainSheet = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                endSheetFirstButton = id; 
+                endSheetSecondButton = id; 
+                endSheetThirdButton = id; 
+            }; 
+            CLASS = GenericSheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {dismissPanel = id; }; 
+            CLASS = InfoSheetController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                details = NSTextField; 
+                mainWindow = NSWindow; 
+                message = NSTextField; 
+                okButton = NSButton; 
+                panelWindow = NSPanel; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {showLicense = id; }; 
+            CLASS = LicenseWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {licenseView = NSTextView; licenseWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
